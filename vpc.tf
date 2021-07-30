@@ -44,3 +44,4 @@ resource "aws_route_table_association" "rt_sub_association" {
   subnet_id      = element(aws_subnet.subnets.*.id, count.index)
   route_table_id = aws_route_table.public_rt.id
 }
+testing commit changes 1
