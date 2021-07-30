@@ -21,3 +21,4 @@ resource "aws_iam_role_policy_attachment" "demo-cluster-AmazonEKSClusterPolicy" 
   policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role"
   role       = aws_iam_role.demo-cluster.name
 }
+ sorry my bad
