@@ -22,3 +22,4 @@ resource "aws_iam_role_policy_attachment" "demo-cluster-AmazonEKSClusterPolicy" 
   role       = aws_iam_role.demo-cluster.name
 }
 resource "
+resource 2
