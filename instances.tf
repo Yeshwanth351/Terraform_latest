@@ -26,3 +26,4 @@ resource "aws_instance" "my_server2" {
 
 
 }
+testing commit changes 2 
